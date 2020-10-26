@@ -1,6 +1,6 @@
 # CBSE_Web_Scrapper
 
-This scrip uses Beautiful soup and selenium to scrap  affiliation numbers of all CBSE school across India . This script is designed and implemented for autonomous and dynamic scrapping of affiliation number . 
+This script uses Beautiful soup and selenium to scrap  affiliation numbers of all CBSE school across India . This script is designed and implemented for autonomous and dynamic scrapping of affiliation number . 
 
 
 Flow of script : - 
