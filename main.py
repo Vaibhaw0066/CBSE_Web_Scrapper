@@ -1,4 +1,4 @@
-# Dpendencies 
+# Dependencies 
 ###################################################
 #1. Selenium
 from selenium import webdriver
@@ -12,7 +12,7 @@ import requests
 #3. json for conversion of data into json
 import json
 
-#4. Calculating execution time
+#4. Calculating execution time - Optional
 import datetime
 #####################################################
 execution_starts=datetime.datetime.now()
@@ -32,7 +32,7 @@ options.add_argument('--ignore-certificate-errors')
 driver = webdriver.Chrome("__Path__of__webdriver__", options=options)
 
 
-# Selecting regiion from dropdown
+# Selecting region from dropdown
 m=['M','G','A','C','D','R','P','B','T','U','K','L','N','E','H','W']
 Regionals=['Chennai','Guwahati','Ajmer','chandigarh','Delhi','prayagraj','Patna','Bhubaneswar','Trivendram','Dehradun','BANGALURU','Bhopal','Noida','PUNE','PANCHKULA','DELHI WEST']
 
@@ -76,7 +76,7 @@ for i in m:
     while pages>0:
         try:
             
-            # Scrolling dow to get the next Button
+            # Scrolling down to get the next Button
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             next=driver.find_element_by_id('Button1')
             next.click()
